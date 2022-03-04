@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .color{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(72, 85, 52);
+    margin: 20vh;
+
+}
+.rgba{
+    width: 200px;
+    height: 200px;
+    background-color:rgba(45, 78, 255, 0.9);     
+    position: absolute;
+    margin-top: -27vh;
+    margin-left: 20vh;
+    
+}
+.gradient{
+    width: 80%;
+    height: 100vh;
+    margin: 5vh auto;
+    background: linear-gradient(to bottom right,red,blue);  
+
+}
+.gradient2{
+    width: 80%;
+    height: 100vh;
+    margin: 5vh auto;
+    background: repeating-linear-gradient(red 20%, green 30%);
+   
+
+} */
+.shadow{
+    width: 400px;
+    height: 500px;    
+    margin: 10vh;
+    margin-left: 30%;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px red;
+    transition: 0.5s;
+
+
+}
+.shadow:hover{
+    box-shadow: 0 0 10px blue;
+    transform: scaleX(1.1);
+}
+
